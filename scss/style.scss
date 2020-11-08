@@ -31,10 +31,25 @@ body {
   }
 }
 
-.info-header{
+.info-header {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid;
+}
+
+#authors {
+  img {
+    margin-top: -70px;
+  }
+
+  .card:hover {
+    background: $primary;
+    color: #fff;
+  }
+
+  .fab {
+    color: #fff;
+  }
 }
 
 @media (max-width: 768px) {
@@ -46,7 +61,7 @@ body {
     }
   }
 
-  .mb-resp{
+  .mb-resp {
     margin-bottom: 1rem;
   }
 }
